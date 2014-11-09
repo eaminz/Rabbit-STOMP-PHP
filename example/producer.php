@@ -7,6 +7,8 @@ $port = "61613";
 $login = "guest";
 $passcode = "guest";
 $destination = "/queue/test";
+/* Try other types of destination to see how differently will the client act
+refer to http://www.rabbitmq.com/stomp.html section "Destinations"*/
 
 $client = new Stomp("tcp://".$server.":".$port) or exit("Error: Wrong URI");
 $client->connect($login, $passcode) or exit("Error: Wrong credential");
