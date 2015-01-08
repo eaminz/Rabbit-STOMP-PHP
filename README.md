@@ -8,8 +8,12 @@ Maybe, dejanb's stomp-php works for ActiveMQ, but to be compatible with RabbitMQ
 
 Guide
 ===============
-1. Download the repository manually or through Linux command "git clone https://github.com/eaminz/Rabbit-STOMP-PHP.git".  
+1. Download the repository manually or through command
+
+    git clone https://github.com/eaminz/Rabbit-STOMP-PHP.git
+
 2. At the begining of your PHP script, require the autoload.php and use the Stomp class. For example:  
+
     <?php
       require __DIR__."/../stomp-php/autoload.php";
       use FuseSource\Stomp\Stomp;
