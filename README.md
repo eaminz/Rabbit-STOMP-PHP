@@ -10,13 +10,13 @@ Guide
 ===============
 1. Download the repository manually or through command
 
-    git clone https://github.com/eaminz/Rabbit-STOMP-PHP.git
+        git clone https://github.com/eaminz/Rabbit-STOMP-PHP.git
 
 2. At the begining of your PHP script, require the autoload.php and use the Stomp class. For example:  
 
-    <?php
-      require __DIR__."/../stomp-php/autoload.php";
-      use FuseSource\Stomp\Stomp;
-      ......
+        <?php
+          require __DIR__."/../stomp-php/autoload.php";
+          use FuseSource\Stomp\Stomp;
+          ......
 3. You can find example code under "/example" and "/stomp-php/fusesource/stomp-php/src/examples".  
 4. It might happen that if you pre-installed php5-stomp extension, some class names will conflict. So do not.  
